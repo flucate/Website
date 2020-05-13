@@ -7,18 +7,22 @@
 body {
   background-image: url('../img/fundo.jpg');
   background-size: auto 100vh;
+  font-family: Arial;
   height: 100vh;
+  font-size: 12px;
 }
 
+/*styles below only if screen minimum resolution is 400px*/
 @media (min-width: 400px) {
   body {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
+/*styles below only if screen minimum resolution is 600px*/
 @media (min-width: 600px) {
   body {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
